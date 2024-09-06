@@ -1,4 +1,4 @@
-Portfólio -Projeto
+Portfólio Pessoal - Ana Claudia Romão
 Bem-vindo ao meu portfólio pessoal! Este site é uma demonstração dos projetos e habilidades que desenvolvi como desenvolvedora web. Ele inclui uma introdução breve sobre mim, uma exibição dos meus projetos e formas de entrar em contato comigo.
 
 🚀 Demonstração
@@ -32,14 +32,7 @@ Weather Forecast - Previsão do Tempo
 Penguin CSS
 Formulário
 Revista Digital
-📞 Contato
-Entre em contato comigo para colaborar em projetos ou se tiver alguma dúvida:
 
-LinkedIn
-GitHub
-Skype
-E-mail: ana270391@gmail.com
-📄 Licença
-Este projeto está licenciado sob a licença MIT. Sinta-se à vontade para utilizá-lo como base para seu próprio portfólio.
+
 
 
