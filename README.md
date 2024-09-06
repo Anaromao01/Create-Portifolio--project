@@ -38,7 +38,7 @@ Entre em contato comigo para colaborar em projetos ou se tiver alguma dúvida:
 LinkedIn
 GitHub
 Skype
-E-mail: email@example.com
+E-mail: ana270391@gmail.com
 📄 Licença
 Este projeto está licenciado sob a licença MIT. Sinta-se à vontade para utilizá-lo como base para seu próprio portfólio.
 
