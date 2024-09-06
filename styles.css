@@ -1,0 +1,192 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #DE9702; /* Ajuste a cor se necessário */
+    z-index: 1000; /* Garante que o navbar fique acima de outros elementos */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adiciona uma leve sombra */
+}
+
+body {
+    background-color:#e0e0b8;;
+    font-family: "Poppins", "Bebas Neue", sans-serif;
+    padding-top: 10vh;
+}
+/* STILIZAÇÃO DA NAV*/
+.nav {
+    background-color: #DE9702;
+    /*width: 100vw;*/
+    height: 10vh;
+    align-content: center;
+    font-weight: 500;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.nav-list li {
+    margin: 0 10px;
+    /* Espaçamento entre os links */
+}
+
+.nav-list li a {
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+    color: #feffe3;
+    /* Cor do texto dos links */
+    text-transform: uppercase;
+
+}
+
+.nav-list li a:hover {
+    color: #0253DE;
+    /* Cor do link ao passar o mouse */
+}
+
+.welcome-section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center;     /* Centraliza horizontalmente */
+    padding: 0; /* Remova o padding para centralização mais precisa */
+}
+.welcome-section h1{
+    font-size: 42px;
+    text-align: center;
+}
+
+.welcome-section p{
+    font-size: 29px;
+    text-align: center;
+}
+
+.projects-section{
+    background-color: #30415E;
+    color: #feffe3;
+}
+.project-section-header{
+padding-top: 50px;
+padding-bottom: 30px;
+text-align: center;
+font-size: 32px;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    object-fit: contain;
+    
+}
+span{
+    color: #f04713;
+}
+.project-title{
+    color: #feffe3;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    grid-gap: 15px;
+    padding: 20px;
+    
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-grid {
+        grid-template-columns: 1fr; /* Uma coluna em telas pequenas */
+    }
+}
+
+.contact-section{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.contact-section h2{
+padding-top: 50px;
+padding-bottom: 30px;
+text-align: center;
+font-size: 32px;
+color: #2f2f2e;
+}
+
+/* Estilo dos links de ícones */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os ícones */
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #DE9702;
+    transition: transform 0.3s ease;
+}
+
+.social-icons i {
+    font-size: 32px; /* Tamanho inicial dos ícones */
+    background-color: #0253DE;
+    color: #feffe3;
+    border-radius: 40%;
+    padding: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-icons p {
+    margin-top: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #2f2f2e;
+    font-weight: 600;
+}
+
+/* Efeito hover para aumentar o ícone e mudar cor */
+.social-icons a:hover i {
+    transform: scale(1.2); /* Aumenta o ícone em 20% */
+    background-color: #0253DE; /* Muda a cor de fundo */
+    color: #DE9702; /* Muda a cor do ícone */
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color:#DE9702;
+}
+
+.footer-copy{
+    justify-content: center;
+    text-align: center;
+    padding-top: 17px;
+}
